@@ -1,0 +1,33 @@
+INFO:root:Session ID: test-session-123, User Query: What is pubblika, Model: gemini-1.5-flash
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:Session ID: test-session-123, AI Response: Pubblika is a marketing agency that blends artistry and strategic insight in its campaigns.  They use data-driven marketing and create visual content to enhance brand visibility.  They also focus on building community and providing tailored strategies for each brand.
+
+INFO:root:Session ID: test-session-123, User Query: What are the services of pubblika, Model: gemini-1.5-flash
+INFO:root:Session ID: test-session-123, AI Response: Pubblika offers data-driven marketing to optimize campaign reach and engagement.  They also provide visual content creation (graphics and videos) and tailored strategies to meet specific brand goals.  Their approach emphasizes creativity and community building.
+
+INFO:root:Session ID: test-session-123, User Query: What are the services of pubblika, Model: gemini-1.5-flash
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:Session ID: test-session-123, AI Response: Pubblika offers data-driven marketing, visual content creation (including graphics and videos), and tailored marketing strategies designed to meet individual brand goals.  They also focus on building a sense of community around the brands they work with.
+
+INFO:root:Session ID: test-session-123, User Query: What are the services of pubblika, Model: gemini-1.5-flash
+INFO:backoff:Backing off send_request(...) for 0.8s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D26390EC0>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+INFO:backoff:Backing off send_request(...) for 1.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D263EB770>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+INFO:backoff:Backing off send_request(...) for 3.9s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D263EB230>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+ERROR:backoff:Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D263DFD10>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+INFO:root:Session ID: test-session-123, User Query: What are the services of pubblika, Model: gemini-1.5-flash
+INFO:root:Session ID: test-session-123, AI Response: Pubblika's services include data-driven marketing for optimized reach, visual content creation (graphics and videos), and customized strategies to achieve specific brand goals.  They also emphasize community building.
+
+INFO:root:Session ID: 41a18915-4a45-421f-adc3-9628d0385692, User Query: what is pubblika, Model: gemini-1.5-flash
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:Session ID: 41a18915-4a45-421f-adc3-9628d0385692, AI Response: Pubblika is a marketing agency that blends artistry and strategic insight in its campaigns.  They use data-driven marketing and create visual content to enhance brand visibility.  Their approach is tailored to each brand's unique needs, fostering community connection.
+
+INFO:root:Session ID: dce81c80-8a08-4191-be0c-599fffeeb71a, User Query: hi, Model: gemini-1.5-flash
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:Session ID: dce81c80-8a08-4191-be0c-599fffeeb71a, AI Response: Hello! How can I help you today?
+
+INFO:root:Session ID: 39d0c3a7-d2bd-4cba-84da-8b5bea7f8af4, User Query: hi, Model: gemini-1.5-flash
+INFO:root:Session ID: 39d0c3a7-d2bd-4cba-84da-8b5bea7f8af4, AI Response: Hello! How can I help you today?
+
+INFO:root:Session ID: 9e6c90d8-0a27-4e61-868e-5a65d32ca91b, User Query: hi what is pubblika, Model: gemini-1.5-flash
+INFO:root:Session ID: 9e6c90d8-0a27-4e61-868e-5a65d32ca91b, AI Response: Pubblika is a marketing agency that blends artistry and strategic insight in its campaigns.  They use data-driven marketing and create compelling visual content to enhance brand visibility.  Their approach is tailored to each brand's unique needs, fostering community connections.
+
