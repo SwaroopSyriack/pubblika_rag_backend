@@ -9,10 +9,14 @@ import os
 load_dotenv()
 api_key = os.getenv("API_KEY")
 os.environ["GOOGLE_API_KEY"] = api_key
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the path relative to the current directory
+data_path = os.path.join(base_dir, "data")
 
 
 
-def load_documents(file_path = "D:/pubblika/pubblika_rag/backend/data") -> List[Document]:
+def load_documents(file_path = data_path) -> List[Document]:
     documents = []
     for file_name in os.listdir(file_path):
         file_path = os.path.join(file_path,file_name)
